@@ -1,0 +1,11 @@
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.exe.config
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.exe
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.pdb
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.xml
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.vbprojResolveAssemblyReference.cache
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.Resources.resources
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.vbproj.GenerateResource.Cache
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.exe
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.xml
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.pdb
+c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.frmMain.resources
