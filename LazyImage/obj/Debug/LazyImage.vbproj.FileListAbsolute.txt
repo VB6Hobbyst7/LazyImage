@@ -9,3 +9,14 @@ c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Deb
 c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.xml
 c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.pdb
 c:\users\skyle\documents\visual studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.frmMain.resources
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.exe.config
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.exe
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.xml
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.pdb
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.exe
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.pdb
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\bin\Debug\LazyImage.xml
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.vbprojResolveAssemblyReference.cache
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.frmMain.resources
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.Resources.resources
+C:\Users\詰凱\Documents\Visual Studio 2015\Projects\LazyImage\LazyImage\obj\Debug\LazyImage.vbproj.GenerateResource.Cache

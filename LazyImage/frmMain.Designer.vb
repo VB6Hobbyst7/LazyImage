@@ -68,18 +68,20 @@ Partial Class frmMain
         'lbPictureNameList
         '
         Me.lbPictureNameList.FormattingEnabled = True
-        Me.lbPictureNameList.ItemHeight = 12
-        Me.lbPictureNameList.Location = New System.Drawing.Point(6, 50)
+        Me.lbPictureNameList.ItemHeight = 15
+        Me.lbPictureNameList.Location = New System.Drawing.Point(8, 62)
+        Me.lbPictureNameList.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lbPictureNameList.Name = "lbPictureNameList"
         Me.lbPictureNameList.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
-        Me.lbPictureNameList.Size = New System.Drawing.Size(120, 292)
+        Me.lbPictureNameList.Size = New System.Drawing.Size(159, 364)
         Me.lbPictureNameList.TabIndex = 0
         '
         'btnLoadPictures
         '
-        Me.btnLoadPictures.Location = New System.Drawing.Point(6, 6)
+        Me.btnLoadPictures.Location = New System.Drawing.Point(8, 8)
+        Me.btnLoadPictures.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnLoadPictures.Name = "btnLoadPictures"
-        Me.btnLoadPictures.Size = New System.Drawing.Size(75, 23)
+        Me.btnLoadPictures.Size = New System.Drawing.Size(100, 29)
         Me.btnLoadPictures.TabIndex = 1
         Me.btnLoadPictures.Text = "載入圖片"
         Me.btnLoadPictures.UseVisualStyleBackColor = True
@@ -87,9 +89,10 @@ Partial Class frmMain
         'pbThumbnail
         '
         Me.pbThumbnail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pbThumbnail.Location = New System.Drawing.Point(132, 35)
+        Me.pbThumbnail.Location = New System.Drawing.Point(176, 44)
+        Me.pbThumbnail.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pbThumbnail.Name = "pbThumbnail"
-        Me.pbThumbnail.Size = New System.Drawing.Size(434, 470)
+        Me.pbThumbnail.Size = New System.Drawing.Size(578, 587)
         Me.pbThumbnail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbThumbnail.TabIndex = 2
         Me.pbThumbnail.TabStop = False
@@ -105,9 +108,11 @@ Partial Class frmMain
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.tbVertical)
         Me.GroupBox1.Controls.Add(Me.btnTransform)
-        Me.GroupBox1.Location = New System.Drawing.Point(6, 348)
+        Me.GroupBox1.Location = New System.Drawing.Point(8, 435)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(120, 157)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(160, 196)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "調整大小"
@@ -117,18 +122,20 @@ Partial Class frmMain
         Me.cbFixedRatio.AutoSize = True
         Me.cbFixedRatio.Checked = True
         Me.cbFixedRatio.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.cbFixedRatio.Location = New System.Drawing.Point(6, 99)
+        Me.cbFixedRatio.Location = New System.Drawing.Point(8, 124)
+        Me.cbFixedRatio.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cbFixedRatio.Name = "cbFixedRatio"
-        Me.cbFixedRatio.Size = New System.Drawing.Size(84, 16)
+        Me.cbFixedRatio.Size = New System.Drawing.Size(104, 19)
         Me.cbFixedRatio.TabIndex = 13
         Me.cbFixedRatio.Text = "等比例縮放"
         Me.cbFixedRatio.UseVisualStyleBackColor = True
         '
         'btnRecovery
         '
-        Me.btnRecovery.Location = New System.Drawing.Point(6, 121)
+        Me.btnRecovery.Location = New System.Drawing.Point(8, 151)
+        Me.btnRecovery.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnRecovery.Name = "btnRecovery"
-        Me.btnRecovery.Size = New System.Drawing.Size(50, 23)
+        Me.btnRecovery.Size = New System.Drawing.Size(67, 29)
         Me.btnRecovery.TabIndex = 12
         Me.btnRecovery.Text = "還原"
         Me.btnRecovery.UseVisualStyleBackColor = True
@@ -137,9 +144,10 @@ Partial Class frmMain
         '
         Me.rbPercentage.AutoSize = True
         Me.rbPercentage.Checked = True
-        Me.rbPercentage.Location = New System.Drawing.Point(59, 21)
+        Me.rbPercentage.Location = New System.Drawing.Point(79, 26)
+        Me.rbPercentage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbPercentage.Name = "rbPercentage"
-        Me.rbPercentage.Size = New System.Drawing.Size(59, 16)
+        Me.rbPercentage.Size = New System.Drawing.Size(73, 19)
         Me.rbPercentage.TabIndex = 11
         Me.rbPercentage.TabStop = True
         Me.rbPercentage.Text = "百分比"
@@ -148,9 +156,10 @@ Partial Class frmMain
         'rbPixel
         '
         Me.rbPixel.AutoSize = True
-        Me.rbPixel.Location = New System.Drawing.Point(6, 21)
+        Me.rbPixel.Location = New System.Drawing.Point(8, 26)
+        Me.rbPixel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbPixel.Name = "rbPixel"
-        Me.rbPixel.Size = New System.Drawing.Size(47, 16)
+        Me.rbPixel.Size = New System.Drawing.Size(58, 19)
         Me.rbPixel.TabIndex = 10
         Me.rbPixel.Text = "像素"
         Me.rbPixel.UseVisualStyleBackColor = True
@@ -158,42 +167,47 @@ Partial Class frmMain
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 74)
+        Me.Label3.Location = New System.Drawing.Point(8, 92)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(29, 12)
+        Me.Label3.Size = New System.Drawing.Size(37, 15)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "垂直"
         '
         'tbHorizontal
         '
-        Me.tbHorizontal.Location = New System.Drawing.Point(41, 43)
+        Me.tbHorizontal.Location = New System.Drawing.Point(55, 54)
+        Me.tbHorizontal.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbHorizontal.Name = "tbHorizontal"
-        Me.tbHorizontal.Size = New System.Drawing.Size(50, 22)
+        Me.tbHorizontal.Size = New System.Drawing.Size(65, 25)
         Me.tbHorizontal.TabIndex = 7
         Me.tbHorizontal.Text = "100"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 46)
+        Me.Label2.Location = New System.Drawing.Point(8, 58)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(29, 12)
+        Me.Label2.Size = New System.Drawing.Size(37, 15)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "水平"
         '
         'tbVertical
         '
-        Me.tbVertical.Location = New System.Drawing.Point(41, 71)
+        Me.tbVertical.Location = New System.Drawing.Point(55, 89)
+        Me.tbVertical.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbVertical.Name = "tbVertical"
-        Me.tbVertical.Size = New System.Drawing.Size(50, 22)
+        Me.tbVertical.Size = New System.Drawing.Size(65, 25)
         Me.tbVertical.TabIndex = 8
         Me.tbVertical.Text = "100"
         '
         'btnTransform
         '
-        Me.btnTransform.Location = New System.Drawing.Point(64, 121)
+        Me.btnTransform.Location = New System.Drawing.Point(85, 151)
+        Me.btnTransform.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnTransform.Name = "btnTransform"
-        Me.btnTransform.Size = New System.Drawing.Size(50, 23)
+        Me.btnTransform.Size = New System.Drawing.Size(67, 29)
         Me.btnTransform.TabIndex = 0
         Me.btnTransform.Text = "轉換"
         Me.btnTransform.UseVisualStyleBackColor = True
@@ -203,9 +217,10 @@ Partial Class frmMain
         Me.tcMain.Controls.Add(Me.tpGenerate)
         Me.tcMain.Controls.Add(Me.tpCode)
         Me.tcMain.Location = New System.Drawing.Point(0, 0)
+        Me.tcMain.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tcMain.Name = "tcMain"
         Me.tcMain.SelectedIndex = 0
-        Me.tcMain.Size = New System.Drawing.Size(584, 537)
+        Me.tcMain.Size = New System.Drawing.Size(779, 671)
         Me.tcMain.TabIndex = 5
         '
         'tpGenerate
@@ -220,19 +235,21 @@ Partial Class frmMain
         Me.tpGenerate.Controls.Add(Me.btnLoadPictures)
         Me.tpGenerate.Controls.Add(Me.lbPictureNameList)
         Me.tpGenerate.Controls.Add(Me.pbThumbnail)
-        Me.tpGenerate.Location = New System.Drawing.Point(4, 22)
+        Me.tpGenerate.Location = New System.Drawing.Point(4, 25)
+        Me.tpGenerate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tpGenerate.Name = "tpGenerate"
-        Me.tpGenerate.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpGenerate.Size = New System.Drawing.Size(576, 511)
+        Me.tpGenerate.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tpGenerate.Size = New System.Drawing.Size(771, 642)
         Me.tpGenerate.TabIndex = 0
         Me.tpGenerate.Text = "*.pixel & *.color"
         Me.tpGenerate.UseVisualStyleBackColor = True
         '
         'pbOriginal
         '
-        Me.pbOriginal.Location = New System.Drawing.Point(386, 307)
+        Me.pbOriginal.Location = New System.Drawing.Point(515, 384)
+        Me.pbOriginal.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pbOriginal.Name = "pbOriginal"
-        Me.pbOriginal.Size = New System.Drawing.Size(180, 198)
+        Me.pbOriginal.Size = New System.Drawing.Size(240, 248)
         Me.pbOriginal.TabIndex = 10
         Me.pbOriginal.TabStop = False
         Me.pbOriginal.Visible = False
@@ -240,10 +257,11 @@ Partial Class frmMain
         'lbPiturePathList
         '
         Me.lbPiturePathList.FormattingEnabled = True
-        Me.lbPiturePathList.ItemHeight = 12
-        Me.lbPiturePathList.Location = New System.Drawing.Point(132, 47)
+        Me.lbPiturePathList.ItemHeight = 15
+        Me.lbPiturePathList.Location = New System.Drawing.Point(176, 59)
+        Me.lbPiturePathList.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lbPiturePathList.Name = "lbPiturePathList"
-        Me.lbPiturePathList.Size = New System.Drawing.Size(120, 316)
+        Me.lbPiturePathList.Size = New System.Drawing.Size(159, 394)
         Me.lbPiturePathList.TabIndex = 9
         Me.lbPiturePathList.Visible = False
         '
@@ -251,35 +269,39 @@ Partial Class frmMain
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.Green
-        Me.Label1.Location = New System.Drawing.Point(6, 35)
+        Me.Label1.Location = New System.Drawing.Point(8, 44)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(93, 12)
+        Me.Label1.Size = New System.Drawing.Size(117, 15)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "(Delete 刪除選取)"
         '
         'btnChoseDestFolder
         '
         Me.btnChoseDestFolder.Image = Global.LazyImage.My.Resources.Resources.open_folder
-        Me.btnChoseDestFolder.Location = New System.Drawing.Point(487, 7)
+        Me.btnChoseDestFolder.Location = New System.Drawing.Point(649, 9)
+        Me.btnChoseDestFolder.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnChoseDestFolder.Name = "btnChoseDestFolder"
-        Me.btnChoseDestFolder.Size = New System.Drawing.Size(23, 23)
+        Me.btnChoseDestFolder.Size = New System.Drawing.Size(31, 29)
         Me.btnChoseDestFolder.TabIndex = 7
         Me.btnChoseDestFolder.UseVisualStyleBackColor = True
         '
         'tbDestPath
         '
-        Me.tbDestPath.Location = New System.Drawing.Point(132, 7)
+        Me.tbDestPath.Location = New System.Drawing.Point(176, 9)
+        Me.tbDestPath.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbDestPath.Name = "tbDestPath"
         Me.tbDestPath.ReadOnly = True
-        Me.tbDestPath.Size = New System.Drawing.Size(355, 22)
+        Me.tbDestPath.Size = New System.Drawing.Size(472, 25)
         Me.tbDestPath.TabIndex = 6
         Me.tbDestPath.Text = "D:\ppm"
         '
         'btnGenerate
         '
-        Me.btnGenerate.Location = New System.Drawing.Point(516, 7)
+        Me.btnGenerate.Location = New System.Drawing.Point(688, 9)
+        Me.btnGenerate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnGenerate.Name = "btnGenerate"
-        Me.btnGenerate.Size = New System.Drawing.Size(50, 23)
+        Me.btnGenerate.Size = New System.Drawing.Size(67, 29)
         Me.btnGenerate.TabIndex = 5
         Me.btnGenerate.Text = "產生"
         Me.btnGenerate.UseVisualStyleBackColor = True
@@ -291,76 +313,84 @@ Partial Class frmMain
         Me.tpCode.Controls.Add(Me.btnGenerateCode)
         Me.tpCode.Controls.Add(Me.btnCopyCode)
         Me.tpCode.Controls.Add(Me.tbCode)
-        Me.tpCode.Location = New System.Drawing.Point(4, 22)
+        Me.tpCode.Location = New System.Drawing.Point(4, 25)
+        Me.tpCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tpCode.Name = "tpCode"
-        Me.tpCode.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpCode.Size = New System.Drawing.Size(576, 511)
+        Me.tpCode.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tpCode.Size = New System.Drawing.Size(771, 642)
         Me.tpCode.TabIndex = 1
         Me.tpCode.Text = "程式碼"
         Me.tpCode.UseVisualStyleBackColor = True
         '
         'tbFileNamePrefix
         '
-        Me.tbFileNamePrefix.Location = New System.Drawing.Point(146, 7)
+        Me.tbFileNamePrefix.Location = New System.Drawing.Point(195, 9)
+        Me.tbFileNamePrefix.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbFileNamePrefix.Name = "tbFileNamePrefix"
-        Me.tbFileNamePrefix.Size = New System.Drawing.Size(100, 22)
+        Me.tbFileNamePrefix.Size = New System.Drawing.Size(132, 25)
         Me.tbFileNamePrefix.TabIndex = 4
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(87, 11)
+        Me.Label4.Location = New System.Drawing.Point(116, 14)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 12)
+        Me.Label4.Size = New System.Drawing.Size(67, 15)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "檔名前綴"
         '
         'btnGenerateCode
         '
-        Me.btnGenerateCode.Location = New System.Drawing.Point(6, 6)
+        Me.btnGenerateCode.Location = New System.Drawing.Point(8, 8)
+        Me.btnGenerateCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnGenerateCode.Name = "btnGenerateCode"
-        Me.btnGenerateCode.Size = New System.Drawing.Size(75, 23)
+        Me.btnGenerateCode.Size = New System.Drawing.Size(100, 29)
         Me.btnGenerateCode.TabIndex = 2
         Me.btnGenerateCode.Text = "產生"
         Me.btnGenerateCode.UseVisualStyleBackColor = True
         '
         'btnCopyCode
         '
-        Me.btnCopyCode.Location = New System.Drawing.Point(495, 6)
+        Me.btnCopyCode.Location = New System.Drawing.Point(660, 8)
+        Me.btnCopyCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCopyCode.Name = "btnCopyCode"
-        Me.btnCopyCode.Size = New System.Drawing.Size(75, 23)
+        Me.btnCopyCode.Size = New System.Drawing.Size(100, 29)
         Me.btnCopyCode.TabIndex = 1
         Me.btnCopyCode.Text = "複製"
         Me.btnCopyCode.UseVisualStyleBackColor = True
         '
         'tbCode
         '
-        Me.tbCode.Location = New System.Drawing.Point(6, 35)
+        Me.tbCode.Location = New System.Drawing.Point(8, 44)
+        Me.tbCode.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbCode.Multiline = True
         Me.tbCode.Name = "tbCode"
         Me.tbCode.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.tbCode.Size = New System.Drawing.Size(564, 470)
+        Me.tbCode.Size = New System.Drawing.Size(751, 586)
         Me.tbCode.TabIndex = 0
         '
         'ssMain
         '
+        Me.ssMain.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ssMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsslMessage, Me.ToolStripStatusLabel1, Me.tsslGithub})
-        Me.ssMain.Location = New System.Drawing.Point(0, 540)
+        Me.ssMain.Location = New System.Drawing.Point(0, 677)
         Me.ssMain.Name = "ssMain"
-        Me.ssMain.Size = New System.Drawing.Size(584, 22)
+        Me.ssMain.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
+        Me.ssMain.Size = New System.Drawing.Size(779, 25)
         Me.ssMain.TabIndex = 6
         '
         'tsslMessage
         '
         Me.tsslMessage.Image = Global.LazyImage.My.Resources.Resources.status_dot
         Me.tsslMessage.Name = "tsslMessage"
-        Me.tsslMessage.Size = New System.Drawing.Size(58, 17)
+        Me.tsslMessage.Size = New System.Drawing.Size(72, 20)
         Me.tsslMessage.Text = "Status"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(409, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(560, 20)
         Me.ToolStripStatusLabel1.Spring = True
         '
         'tsslGithub
@@ -368,7 +398,7 @@ Partial Class frmMain
         Me.tsslGithub.Image = Global.LazyImage.My.Resources.Resources.github
         Me.tsslGithub.IsLink = True
         Me.tsslGithub.Name = "tsslGithub"
-        Me.tsslGithub.Size = New System.Drawing.Size(102, 17)
+        Me.tsslGithub.Size = New System.Drawing.Size(127, 20)
         Me.tsslGithub.Text = "Skyle@github"
         '
         'ofd
@@ -378,13 +408,14 @@ Partial Class frmMain
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(584, 562)
+        Me.ClientSize = New System.Drawing.Size(779, 702)
         Me.Controls.Add(Me.ssMain)
         Me.Controls.Add(Me.tcMain)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "frmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

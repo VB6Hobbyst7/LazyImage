@@ -158,6 +158,7 @@ Public Class frmMain
     End Sub
 
     Private Sub btnChoseDestFolder_Click(sender As Object, e As EventArgs) Handles btnChoseDestFolder.Click
+        fbd.Description = "請選擇要產生目的地資料夾"
         fbd.ShowDialog()
         If Directory.Exists(fbd.SelectedPath) Then
             tbDestPath.Text = fbd.SelectedPath
@@ -210,7 +211,12 @@ Public Class frmMain
                         Dim fileNameColor As String = tbDestPath.Text + "\" + fileNameWithoutExt + ".color"
 
                         tsslMessage.Text = fileNameWithoutExt + " 處理中 (" + (i + 1).ToString + "/" + lbPictureNameList.Items.Count.ToString + ")"
-                        Bitmap2Ppm(New Bitmap(fileFullPath), fileNamePpm)
+                        '
+                        Dim fs As FileStream
+                        fs = New FileStream(fileFullPath, IO.FileMode.Open, IO.FileAccess.Read)
+                        Bitmap2Ppm(New Bitmap(Image.FromStream(fs)), fileNamePpm)
+                        fs.Close()
+                        '
                         p.StartInfo.Arguments = fileNamePpm + " " + fileNamePixel + " " + fileNameColor + Command()    '設定程式執行參數
                         p.Start() '啟動
                     Catch ex As Exception
